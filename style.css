@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/background.jpg);
+}
+
+.cabecalho{
+  background-color: rgb(130, 131, 131);
+  padding: 1%;
+  color: rgb(255, 255, 255);
+  padding:1%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho img{
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.novidade {
+  color: rgb(2, 2, 2);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+}
+
+.novidade img{
+  border-radius: 10%;
+}
+
+.slidershow{
+  background-color: rgb(130, 130, 130);
+  padding: 1%;
+}
+
+.slidershow .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slidershow img{
+  height: 500px;
+  border-radius: 10px;
+}
+
+.slidershow button{
+  margin-top: 20px;
+  align-items: end;
+  justify-content: end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.gradient .icon {
+  position: absolute;  
+  padding-top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon {
+  color: rgb(255, 253, 253);
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.sobre .card{
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(129, 128, 128);
+  color: rgb(246, 246, 246);
+}
+
+.aba img{
+  padding: 10px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.catalogo img{
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.catalogo .container{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
